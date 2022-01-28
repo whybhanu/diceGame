@@ -1,0 +1,82 @@
+body{
+    background-color: aquamarine;
+}
+.heading{
+    font-family: 'Comforter', cursive;
+    font-size: 10rem;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+
+/* Playing section */
+.player{
+    padding: 200px;
+}
+
+.player1{
+    display: inline-block;
+    font-family: 'Sedgwick Ave', cursive;
+    padding: 20px 100px;
+}
+
+.player2{
+    display: inline-block;
+    font-family: 'Sedgwick Ave', cursive;
+    padding: 20px 100px;
+}
+
+#won{
+    text-align: center;
+    height: 550px;
+}
+
+
+ /* Footer Section  */
+.icons{
+    padding-top: 10px;
+    text-align: center;
+}
+.symbol{
+    margin: 0px 8px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer{
+    position: fixed;
+}
+
+@media screen and (max-width: 931px) {
+    .heading {
+        font-weight: 100;
+        background-color: aqua;
+        font-size: 3rem;
+        text-align: center;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    img{
+        background-color: black;
+        height: 150px;
+    }
+    #won{
+        /* background-color: blue; */
+        height: 300px;
+    }
+    .player1{
+        padding: 10px;
+    }
+    .player2{
+        padding: 10px;
+    }
+  }
